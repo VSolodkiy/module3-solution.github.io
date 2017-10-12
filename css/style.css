@@ -63,21 +63,19 @@ body {
     text-align: left;
     display: inline-block; 
 }
-span.float {
-    margin-left: 10px;
-}
-span.float1 {
-    margin-left: 20px;
-}
-span.float2 {
-    margin-left: 18px;
-}
+
 #menu-list a:hover {
     background: #D4E2E1;
     color:black;
 }
 #menu-list a span {
     font-size: 1em;
+    
+}
+span.block {
+    display: inline-block;
+    width: 80%;
+    text-align: center;
 }
 /******* END MENU-LIST*******/
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
